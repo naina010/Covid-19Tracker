@@ -1,0 +1,32 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.card {
+	margin: 0 1% !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.cardcontent {
+	justify-content: center !important;
+}
+
+.confirmed {
+	background-color: rgb(252, 126, 126) !important;
+	color: rgb(167, 3, 3) !important;
+}
+.active {
+	background-color: rgb(161, 242, 248) !important;
+	color: rgb(4, 76, 158) !important;
+}
+.recovered {
+	background-color: rgb(170, 241, 201) !important;
+	color: rgb(4, 143, 4) !important;
+}
+.deaths {
+	background-color: rgb(177, 192, 183) !important;
+}
